@@ -1,0 +1,55 @@
+.card {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 4px;
+  background-color: #da51da52;
+  padding: 8px;
+  border-bottom: 3px solid #f107ab;
+  margin: 16px 0;
+}
+
+.tag {
+  width: 30px;
+  height: 4px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.tag[data-status='Todo'] {
+  background-color: red;
+}
+
+.tag[data-status='In Progress'] {
+  background-color: yellow;
+  
+}
+
+.tag[data-status='Done'] {
+  background-color: green;
+}
+
+.task {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border-style: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.description {
+  margin-bottom: 10px;
+  resize: none;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border-style: none;
+  color: #ffffff;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+}
